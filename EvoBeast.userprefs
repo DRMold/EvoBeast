@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\OverworldPlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StartMenu.cs">
     <Files>
-      <File FileName="..\..\..\Public\Documents\Unity Projects\RollABall\RollABall\Assets\Scripts\Rotator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\OverworldCameraController.cs" Line="18" Column="2" />
-      <File FileName="Assets\Scripts\OverworldPlayerController.cs" Line="12" Column="3" />
+      <File FileName="Assets\Scripts\StartMenu.cs" Line="7" Column="17" />
+      <File FileName="Assets\Scripts\OverworldCameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OverworldPlayerController.cs" Line="5" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
