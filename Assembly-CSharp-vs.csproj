@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\OverworldCameraController.cs" />
      <Compile Include="Assets\Scripts\OverworldPlayerController.cs" />
+     <Compile Include="Assets\Scripts\OverworldUI.cs" />
      <Compile Include="Assets\Scripts\Player_Controller.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
  <Reference Include="UnityEngine.UI">

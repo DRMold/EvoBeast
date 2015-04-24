@@ -14,7 +14,10 @@ public class OverworldPlayerController : MonoBehaviour {
 	 */
 	void FixedUpdate () {
 		float moveHorizontal = Input.GetAxis("Horizontal");
-		
+		applyMovement (moveHorizontal);
+	}
+
+	public void applyMovement(float moveHorizontal) {
 		Vector2 movement = new Vector2(moveHorizontal, 0);
 		
 		GetComponent<Rigidbody2D>().AddForce(movement * speed * Time.deltaTime);
