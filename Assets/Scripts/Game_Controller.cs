@@ -8,12 +8,7 @@ public class Game_Controller : MonoBehaviour
 	public int cloudCount;
 	public float spawnWait, startWait, waveWait;
 
-	public GUIText scoreText; //GUIText displays on Viewport space, using 0-1 values; Game displays using pixels in seperate space.
-	public GUIText restartText;
-	public GUIText gameOverText;
-
 	private bool gameOver;
-	private bool restart;
 	private bool paused;
 	private int score;
 
@@ -21,10 +16,7 @@ public class Game_Controller : MonoBehaviour
 	void Start () 
 	{
 		gameOver = false;
-		restart = false;
 		paused = false;
-		restartText.text = "";
-		gameOverText.text = "";
 		score = 0;
 		StartCoroutine(SpawnClouds());
 		UpdateScore ();
@@ -33,17 +25,12 @@ public class Game_Controller : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (restart)
+		if (Input.GetKeyUp(KeyCode.P))
 		{
-			if (Input.GetKeyDown (KeyCode.R))
-			{ Application.LoadLevel (Application.loadedLevel); }
-		}
-		if(Input.GetKeyUp(KeyCode.P))
-		{
-			paused = !paused;
+			Pause();
 		}
 		
-		if(paused)
+		if (paused || gameOver)
 			Time.timeScale = 0;
 		else
 			Time.timeScale = 1;
@@ -64,11 +51,7 @@ public class Game_Controller : MonoBehaviour
 			}
 			
 			if (gameOver)
-			{ 
-				restartText.text = "Press 'R' to restart.";
-				restart = true;
-				break;
-			}
+			{ break; }
 		}
 	}
 
@@ -79,11 +62,22 @@ public class Game_Controller : MonoBehaviour
 	}
 
 	void UpdateScore()
-	{ scoreText.text = "Score: " + score; } //scoreText.text is text box in inspector on GUIText component
+	{ /*scoreText.text = "Score: " + score; */} //scoreText.text is text box in inspector on GUIText component
 	
 	public void GameOver()
+	{ gameOver = true; } 
+
+	public void Pause()
+	{ this.paused = !this.paused; }
+
+	
+	public void Finish() { StartCoroutine(BeatGame()); }
+	IEnumerator BeatGame()
 	{
-		gameOver = true;
-		gameOverText.text = "Game Over!";
-	} 
+		yield return new WaitForSeconds(5);
+		Application.LoadLevel(1);
+	}
+
+	public bool getGameOver()
+	{ return gameOver; }
 }

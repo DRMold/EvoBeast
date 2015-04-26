@@ -9,6 +9,12 @@ public class Player_Controller : MonoBehaviour
 {
 	public float speed;
 	public Boundary boundary;
+	public Sprite sprite1; // Default Sprite
+	public Sprite sprite2; // Failure Sprite
+	public Sprite sprite3; //Victory Sprite
+	public GameObject dragon;
+
+	private SpriteRenderer spR;
 	private Game_Controller gameController;
 	
 	// Use this for initialization
@@ -18,28 +24,21 @@ public class Player_Controller : MonoBehaviour
 		if (gameControllerObject != null) 
 		{ gameController = gameControllerObject.GetComponent<Game_Controller> (); }
 		else { Debug.Log ("Cannot find 'GameController' script."); }
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		//if(Input.GetKey(KeyCode.LeftArrow)) {
-		//	// left
-		//	transform.Rotate(0.0f, 0.0f, 5.0f);  // does nothing, just a bad guess
-		//}
-		
-		//if(Input.GetKey(KeyCode.RightArrow)) {
-			// right
-		//	transform.Rotate(0.0f, 0.0f, -5.0f);  // does nothing, just a bad guess
-		//}
-		
+
+		spR = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
+		if (spR.sprite == null) 			  // if the sprite on spriteRenderer is null then
+			spR.sprite = sprite1;			  // set the sprite to default
 	}
 	
 	void FixedUpdate()  
 	{
 		//pick up movement from user input
 		float moveHorizontal = Input.GetAxis("Horizontal");
-		
+		applyMovement (moveHorizontal);
+	}
+	
+	public void applyMovement(float moveHorizontal) 
+	{		
 		//calculates where and how quickly the player moves
 		Vector2 movement = new Vector2 (moveHorizontal, 0);
 		//GetComponent<Rigidbody2D>().velocity = movement * speed;
@@ -52,12 +51,21 @@ public class Player_Controller : MonoBehaviour
 			);
 	}
 
-	void OnCollision2D(Collider2D other)
+	void OnCollisionEnter2D(Collision2D coll)
 	{
-		if (other.tag == "Finish" && this.GetComponent<Rigidbody2D>().velocity.y > 5)
+		Vector3 offSet = new Vector3 (0, -1, 0);
+		if (coll.relativeVelocity.magnitude > 25)
 		{
-			this.GetComponent<SpriteRenderer>().sprite = Resources.Load ("Assets/Sprites/New_Sprites/Broken egg") as Sprite;
+			spR.sprite = sprite2;
+			transform.rotation = Quaternion.identity;
 			gameController.GameOver();
+		}
+		else if (coll.gameObject.tag == "Finish" && spR.sprite == sprite1)
+		{ 
+			spR.sprite = sprite3;
+			transform.rotation = Quaternion.identity;
+			Instantiate (dragon, this.transform.position - offSet, this.transform.rotation);
+			gameController.Finish();
 		}
 	}
 }

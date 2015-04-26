@@ -21,6 +21,8 @@ public class OverworldUI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (Time.timeScale != 1)
+			Time.timeScale = 1;
 		overworldUI = overworldUI.GetComponent<Canvas> ();
 		pauseMenu = pauseMenu.GetComponent<Canvas> ();
 		leftArrow = leftArrow.GetComponent<Button> ();

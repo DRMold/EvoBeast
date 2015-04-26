@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Camera_Controller.cs" />
      <Compile Include="Assets\Scripts\Destroy_By_Boundary.cs" />
      <Compile Include="Assets\Scripts\Game_Controller.cs" />
+     <Compile Include="Assets\Scripts\LevelUI.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\OverworldCameraController.cs" />
      <Compile Include="Assets\Scripts\OverworldPlayerController.cs" />

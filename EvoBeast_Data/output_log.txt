@@ -1,20 +1,51 @@
 Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 10.1]
-    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.074 seconds
-desktop: 1366x768 60Hz; virtual: 3046x1050 at 0,0
+Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.052 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\OWNER2\evobeast\EvoBeast\EvoBeast_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\System.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.188486 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 394.
+Total: 0.307910 ms (FindLiveObjects: 0.029006 ms CreateObjectMapping: 0.018296 ms MarkObjects: 0.243651 ms  DeleteObjects: 0.016511 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.609169 ms
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 366.
+Total: 0.422150 ms (FindLiveObjects: 0.038377 ms CreateObjectMapping: 0.029006 ms MarkObjects: 0.320852 ms  DeleteObjects: 0.032576 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.569006 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.302109 ms (FindLiveObjects: 0.029452 ms CreateObjectMapping: 0.017849 ms MarkObjects: 0.234726 ms  DeleteObjects: 0.018742 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.644827 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 366.
+Total: 0.339148 ms (FindLiveObjects: 0.035253 ms CreateObjectMapping: 0.022312 ms MarkObjects: 0.263286 ms  DeleteObjects: 0.017403 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.292333 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.256592 ms (FindLiveObjects: 0.020973 ms CreateObjectMapping: 0.012048 ms MarkObjects: 0.205273 ms  DeleteObjects: 0.017849 ms)
+

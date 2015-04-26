@@ -28,7 +28,10 @@ public class StartMenu : MonoBehaviour {
 		startMenu = startMenu.GetComponent<Canvas> ();
 	}
 
-	// The start button is pressed
+	public void StartGame()
+	{ Application.LoadLevel (2); }
+
+	// The load level button is pressed
 	public void StartOverworld() {
 		Application.LoadLevel (1); // This loads the Overworld scene
 	}
