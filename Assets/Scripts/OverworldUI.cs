@@ -16,8 +16,8 @@ public class OverworldUI : MonoBehaviour {
 
 	public OverworldPlayerController controller;
 
-	private bool leftPress = false;
-	private bool rightPress = false;
+	//private bool leftPress = false;
+	//private bool rightPress = false;
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +33,7 @@ public class OverworldUI : MonoBehaviour {
 		pauseMenu.enabled = false;
 	}
 
+	/*
 	void Update() {
 		if (leftPress) {
 			controller.applyMovement(-1);
@@ -41,6 +42,7 @@ public class OverworldUI : MonoBehaviour {
 			controller.applyMovement(1);
 		}
 	}
+	*/
 	
 	public void PausePress() {
 		Time.timeScale = 0;
@@ -59,19 +61,23 @@ public class OverworldUI : MonoBehaviour {
 		Application.LoadLevel (0);
 	}
 
-	public void LeftPress() {
-		leftPress = true;
+	public void LeftClick() {
+		//leftPress = true;
+		controller.applyMovement(-1);
 	}
 
-	public void RightPress() {
-		rightPress = true;
+	public void RightClick() {
+		//rightPress = true;
+		controller.applyMovement(1);
 	}
 
+	/*
 	public void LeftDepress() {
-		leftPress = false;
+		//leftPress = false;
 	}
 	
 	public void RightDepress() {
-		rightPress = false;
+		//rightPress = false;
 	}
+	*/
 }
