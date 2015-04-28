@@ -11,8 +11,8 @@ public class Player_Controller : MonoBehaviour
 	public Boundary boundary;
 	public Sprite sprite1; // Default Sprite
 	public Sprite sprite2; // Failure Sprite
-	public Sprite sprite3; //Victory Sprite
 	public GameObject dragon;
+	public GameObject hatchedEgg;
 
 	private SpriteRenderer spR;
 	private Game_Controller gameController;
@@ -60,12 +60,13 @@ public class Player_Controller : MonoBehaviour
 			transform.rotation = Quaternion.identity;
 			gameController.GameOver();
 		}
-		else if (coll.gameObject.tag == "Finish" && spR.sprite == sprite1)
+		else if (coll.gameObject.tag == "Finish")
 		{ 
-			spR.sprite = sprite3;
-			transform.rotation = Quaternion.identity;
+			this.transform.rotation = Quaternion.identity; 
+			Instantiate (hatchedEgg, this.transform.position - offSet, this.transform.rotation);
 			Instantiate (dragon, this.transform.position - offSet, this.transform.rotation);
 			gameController.Finish();
+			Destroy (this.gameObject);
 		}
 	}
 }

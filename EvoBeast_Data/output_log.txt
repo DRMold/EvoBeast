@@ -6,46 +6,2302 @@ Direct3D:
     Vendor:   Intel
     VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.052 seconds
+Platform assembly: c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.051 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\System.dll (this message is harmless)
+Platform assembly: c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: c:\Users\DRMold\Documents\Games\Unity5\EvoBeast\EvoBeast_Data\Managed\System.dll (this message is harmless)
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.188486 ms
+UnloadTime: 6.519678 ms
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 394.
-Total: 0.307910 ms (FindLiveObjects: 0.029006 ms CreateObjectMapping: 0.018296 ms MarkObjects: 0.243651 ms  DeleteObjects: 0.016511 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 4.414728 ms (FindLiveObjects: 0.040608 ms CreateObjectMapping: 3.955985 ms MarkObjects: 0.394929 ms  DeleteObjects: 0.021866 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.609169 ms
+UnloadTime: 0.863489 ms
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 366.
-Total: 0.422150 ms (FindLiveObjects: 0.038377 ms CreateObjectMapping: 0.029006 ms MarkObjects: 0.320852 ms  DeleteObjects: 0.032576 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.569006 ms
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 247.
-Total: 0.302109 ms (FindLiveObjects: 0.029452 ms CreateObjectMapping: 0.017849 ms MarkObjects: 0.234726 ms  DeleteObjects: 0.018742 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 367.
+Total: 0.287383 ms (FindLiveObjects: 0.037931 ms CreateObjectMapping: 0.017849 ms MarkObjects: 0.206166 ms  DeleteObjects: 0.024989 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.644827 ms
+UnloadTime: 1.282069 ms
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 366.
-Total: 0.339148 ms (FindLiveObjects: 0.035253 ms CreateObjectMapping: 0.022312 ms MarkObjects: 0.263286 ms  DeleteObjects: 0.017403 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.255253 ms (FindLiveObjects: 0.020527 ms CreateObjectMapping: 0.011156 ms MarkObjects: 0.207058 ms  DeleteObjects: 0.016511 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.701096 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.481055 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.025436 ms MarkObjects: 0.392697 ms  DeleteObjects: 0.020973 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Transform:INTERNAL_get_position (UnityEngine.Vector3&)
+  at UnityEngine.Transform.get_position () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.CheckXMargin () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.TrackPlayer () [0x00000] in <filename unknown>:0 
+  at Camera_Controller.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.423735 ms
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 367.
+Total: 0.345395 ms (FindLiveObjects: 0.031683 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.258823 ms  DeleteObjects: 0.033914 ms)
 
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.292333 ms
+UnloadTime: 1.396308 ms
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 247.
-Total: 0.256592 ms (FindLiveObjects: 0.020973 ms CreateObjectMapping: 0.012048 ms MarkObjects: 0.205273 ms  DeleteObjects: 0.017849 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 247.
+Total: 0.278458 ms (FindLiveObjects: 0.028113 ms CreateObjectMapping: 0.015618 ms MarkObjects: 0.218215 ms  DeleteObjects: 0.015618 ms)
 

@@ -9,6 +9,7 @@ public class LevelUI : MonoBehaviour
 	public Canvas levelUI;
 	public Canvas pauseMenu;
 	public Canvas gameOverMenu;
+	public Canvas htpMenu;
 	public Button leftArrow;
 	public Button rightArrow;
 	public Button pauseButton;
@@ -33,6 +34,7 @@ public class LevelUI : MonoBehaviour
 
 		pauseMenu.enabled = false;
 		gameOverMenu.enabled = false;
+		htpMenu.enabled = false;
 	}
 
 	void Update() 
@@ -71,6 +73,18 @@ public class LevelUI : MonoBehaviour
 	{
 		gameController.Pause();
 		Application.LoadLevel (1);
+	}
+
+	public void BackPress()
+	{
+		htpMenu.enabled = false;
+		pauseMenu.enabled = true;
+	}
+
+	public void HowToPlay()
+	{
+		pauseMenu.enabled = false;
+		htpMenu.enabled = true;
 	}
 
 	public void LeftPress() 
